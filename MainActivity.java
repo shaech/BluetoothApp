@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 mMsg.setText(" ");
                 if(mBluetoothAdapter==null){
 
-                    Toast.makeText(MainActivity.this, "No Bluetooth Device Found", Toast.LENGTH_SHORT).show();
+                     Toast.makeText(MainActivity.this, "No Bluetooth Device Found", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     if(mBluetoothAdapter.isEnabled()){
