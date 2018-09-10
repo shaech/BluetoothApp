@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         mMsg = findViewById(R.id.textMessage);
 
 
-
         mstartBT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
